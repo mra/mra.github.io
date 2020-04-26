@@ -13,16 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Organ-on-a-chip
+email: manoja@iitkgp.ac.in
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Organs-on-Chips are emerging as powerful tools that allow researchers to study the
+physiology of human organs and tissues in ways not possible before. By mimicking
+normal blood flow, the mechanical micro environment and how different tissues
+physically interact with each other in living organs, they offer a more controllable
+and observable platform for testing drugs, as compared to in vitro or in vivo
+methods.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+github_username:  mra
 
 # Build settings
 markdown: kramdown

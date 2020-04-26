@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Computational modelling of Organ-on-a-chip"
 date:   2020-04-26 17:30:15 +0530
 categories: jekyll update
 ---
