@@ -20,7 +20,7 @@ sample was introduced into the on-chip nephron device. This was one of the first
 attempts in the field. Though it was a successful attempt, there were challenges to
 be addressed related to the culture and control of the various cell types and the
 filtration process for the separation of waste was not as efficient as for the normal
-nephron.--------------------------</p>
+nephron.</p>
 
 
 
