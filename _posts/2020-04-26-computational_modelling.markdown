@@ -5,7 +5,7 @@ date:   2020-04-26 17:30:15 +0530
 categories: lab-on-chip
 ---
 
-**Kidney-on-a-chip**
+**Kidney-on-a-chip ABCD**
 <p style="text-align:justify">The kidney is one of the most complicated organs in the human body. It, therefore,
 presents an enormous challenge for researchers to develop a platform of “kidney-on-
 a-chip” that can mimic its function when exposed to various drugs and medications.</centre></p>
