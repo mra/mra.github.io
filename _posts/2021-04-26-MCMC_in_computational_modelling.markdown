@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Article on MCMC"
+title:  "Markov Chain Monte Carlo"
 date:   2021-05-12 16:30:15 +0530
 categories: Computational Modelling
 ---
