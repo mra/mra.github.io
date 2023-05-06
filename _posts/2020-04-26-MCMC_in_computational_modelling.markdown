@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Arcticle on patriarchal society"
+title:  "Arcticle on MCMC"
 date:   2020-05-12 16:30:15 +0530
-categories: Women
+categories: Computational Modelling
 ---
 
 **MCMC**
