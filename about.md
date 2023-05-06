@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Manoja Rajalakshmi Aravindakshan
+title: About
 permalink: /about/
 ---
 <p style="text-align:justify">
