@@ -2,7 +2,7 @@
 ---
 layout: post
 title:  "MCMC"
-date:   2020-05-12 16:30:15 +0530
+date:   2021-05-12 16:30:15 +0530
 categories: Comp
 ---
 
