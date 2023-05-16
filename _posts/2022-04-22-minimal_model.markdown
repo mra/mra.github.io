@@ -6,4 +6,4 @@ categories: minimal model
 ---
 
 **Minimal model of insulin-glucose system**
-<p style="text-align:justify">To be updated tested</p>
+<p style="text-align:justify">To be updated soon, testing</p>
