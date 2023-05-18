@@ -112,27 +112,6 @@ The minimal model of insulin glusose pathway is extended to include the role of 
 insulin response.
 3
 Figure 1: Incretins and glycemic control
-$$dG/dt = − (b1 + x) · G + b1 · Gb − Vl Al
-kl + Al$$
-
-Cl
-− Va
-Aa
-ka + Aa
-︸ ︷︷ ︸
-Ca
-(1)
-dx
-dt = − b2 · x + b3(I − Ib) (2)
-dI
-dt = Vd
-Ad
-kd + Ad
-︸ ︷︷ ︸
-Cd
-−b6(I − Ib) + kGLP GLP 1(G − b5)+ (3)
-dGLP 1
-dt = − kD D + b7(G − b5)+ (4)
 where G(t), I(t) denotes blood glucose concentration and blood insulin concentration at time t,
 respectively. There x(t) is an auxiliary function to model the time delay in insulin-dependent
 glucose uptake activity. G(0) = b0, x(0) = 0, I(0) = b7 + Ib, (G − b5)+ = (G − b5), if G > b5, 0
