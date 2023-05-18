@@ -8,7 +8,8 @@ categories: OoC modelling
 
 **Computational modeling of crosstalk of adipocytes and β-cell in insulin-glucose
 pathway through organ-on-chip**
-<p style="text-align:justify">Obesity is a key risk factor of type 2 diabetes mellitus (T2DM). Obesity-associated insulin resistance (IR), followed
+
+Obesity is a key risk factor of type 2 diabetes mellitus (T2DM). Obesity-associated insulin resistance (IR), followed
 by a gradual decline in pancreatic -cell function, leads to T2DM. However, studies have reported that -cell function
 may also increase with adiposity independent of IR. Also, adipokines are reported to play a protective role for -cells
 in the context of T2DM. As the secretory patterns of visceral adipose tissue (VAT) and subcutaneous adipose tissue
@@ -49,4 +50,4 @@ of a precise prevention and therapy in non-obese T2DM. In the future, the work i
 a) prediction of the behaviour of non-obese type 2 diabetic patients based on their glucose and insulin levels and the
 profile of their adipose tissue across various patient groups and b) development of more advanced models to include
 the roles of liver cells in the pathophysiology of T2DM.
-</p>
+

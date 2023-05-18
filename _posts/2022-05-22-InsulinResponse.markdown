@@ -7,7 +7,6 @@ categories: OoC modelling
 ---
 
 **Computational modelling of insulin response to glucose uptake including the role of obesity**
-<p style="text-align:justify">
 
 1.	Hypothesis
 
@@ -125,4 +124,4 @@ term Cd corresponds to increase in concentration of insulin as adipsin enhances 
 kGLP is the rate constant for concentration of active GLP1. Eqn 4 represents the rate of change
 of active GLP-1. It is directly correlated to DPP-4 inhibitors(if any intake). Also active GLP-1
 depends on the amount of glucose intake.
-</p>
+
