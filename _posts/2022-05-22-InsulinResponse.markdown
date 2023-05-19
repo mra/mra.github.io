@@ -109,19 +109,26 @@ more accurate.
 
 5.	Supporting mathematical equations
 
-The minimal model of insulin glusose pathway is extended to include the role of adipocytes and
-insulin response.
+The minimal model of insulin glusose pathway is extended to include the role of adipocytes and insulin response.
 
-Figure 1: Incretins and glycemic control
-where G(t), I(t) denotes blood glucose concentration and blood insulin concentration at time t,
-respectively. There x(t) is an auxiliary function to model the time delay in insulin-dependent
-glucose uptake activity. G(0) = b0, x(0) = 0, I(0) = b7 + Ib, (G − b5)+ = (G − b5), if G > b5, 0
-otherwise. Gb is the baseline glycemia and Ib is baseline insulemia of the subject; b1, . . . , b6 are
-various rate constants, and b0, b7 are constants.
-In eqn 1 there are two additional terms Cl and Ca representing the action of leptin and
-adiponectin in lowering blood glucose level by reducing hepatic glucose production. In egn 3 the
-term Cd corresponds to increase in concentration of insulin as adipsin enhances beta cell function.
-kGLP is the rate constant for concentration of active GLP1. Eqn 4 represents the rate of change
-of active GLP-1. It is directly correlated to DPP-4 inhibitors(if any intake). Also active GLP-1
-depends on the amount of glucose intake.
+\begin{align}
+\frac{dG}{dt} = &\ −(b_1 + x)\cdot G + b_1 \cdot G_\text{b}- \underbrace{V_l\frac{A_l}{k_l+A_l}}_{C_l}- \underbrace{V_a \frac{A_a}{k_a+A_a}}_{C_a}\\
+\frac{dx}{dt} = &\ − b_2 \cdot x + b_3(I − I_\text{b})\\
+\frac{dI}{dt} = &\ \underbrace{V_d\frac{A_d}{k_d+A_d}}_{C_d} -b_6 (I − I_\text{b})+k_{GLP}GLP1(G − b_5)^{+}\\
+\frac{dGLP1}{dt}= &\ -k_{D}D+b_7 (G − b_5)^{+}
+% \HOMAS=         &\ \frac{k_{IR}}{\HOMAIR} + C_a+C_l\\
+% \HOMAB=         &\ k_{\beta d}C_d\\
+\end{align}
+where $G(t)$, $I(t)$ denotes blood glucose concentration and blood insulin
+concentration at time $t$, respectively.
+There $x(t)$ is an auxiliary function to model the time delay in insulin-dependent glucose
+uptake activity.
+$G(0) = b_0$, $x(0) = 0$, $I(0) = b_7 +I_\text{b},(G−b_5)^{+} = (G−b_5)$,
+if $G > b_5$, $0$ otherwise.
+$G_\text{b}$ is the baseline glycemia and $I_\text{b}$ is baseline insulemia of the subject;
+$b_1,\ldots,b_6$ are various rate constants, and $b_0, b_7$ are constants.
 
+In eqn 1 there are two additional terms $C_l$ and $C_a$ representing the action of leptin and adiponectin in lowering blood glucose level by reducing hepatic glucose production.
+In egn 3 the term $C_d$ corresponds to increase in concentration of insulin as adipsin enhances beta cell function.
+$k_{GLP}$ is the rate constant for concentration of active GLP1.
+Eqn 4 represents the rate of change of active GLP-1. It is directly correlated to DPP-4 inhibitors(if any intake). Also active GLP-1 depends on the amount of glucose intake.
