@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Markov Chain Monte Carlo"
-date:   2021-05-12 16:30:15 +0530
+date:   2022-09-12 16:30:15 +0530
 categories: Computational Modelling
 ---
 
