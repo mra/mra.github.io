@@ -16,7 +16,7 @@ A broad outer view:
 
 Basically neural ODEs map input variables to derivative of hidden variables, which may be integrated before use. The output is supposed to pass through ODE solver.
 
-The core idea is to use NN in parameter estimation using a two-stage approach. Neural ODE as data-driven model.
+The core idea is to use NN in parameter estimation using a two-stage approach with neural ODE as data-driven model.
 
 Once NODE is trained derivative estimates are obtained by integrating trained NODE from t=0 to tf of measured data using same process as measured data.
 
@@ -29,7 +29,7 @@ Advantages:
 
 **Details on Implementation**
 
-Basics of PyTorch
+Basics of PyTorch required
 
 Prediction: Pytorch model
 
@@ -39,7 +39,7 @@ Loss computation: Pytorch loss
 
 Parameter updates: Pytorch optimizer
 
-Author William Bradley shared a simple kinetics model
+Author William Bradley shared a simple kinetics model with three concnetration equations.
 
 Pytorch implementation of ODE solvers - torchdiffeq
 
@@ -74,7 +74,7 @@ In stage 2 the neural ODE need not be used. Instead use predicted derivatives of
 
 
 Every nn.Module subclass implements the operations on input data in forward method.
-nn.Linear applied linear transformation on input using stored weights and biases - a = wx + b
+nn.Linear applied linear transformation on input using stored weights and biases -> a = wx + b
 
 odeint(NN model): y_NN prediction
 pass to equation with init parameter values -> derivatives (using detach from NN fn)
