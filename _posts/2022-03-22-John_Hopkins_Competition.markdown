@@ -41,7 +41,7 @@ adipocytes from different individuals having different adipokine profiles. The s
 in insulin secretion in the presence of adipokines. Use of human adipocytes and β-cell lines from mice is planned. The
 experiments will be performed using a single OOC involving the co-culture of adipocytes and β-cells, as in Figure 1.
 
-![Figure](mra.github.io/_posts/setup_synvivo.jpeg)
+![Figure](mra.github.io\_posts\setup_synvivo.jpeg)
 
  Model parameter determination
 through time-series observations can be done using the OOC. The model behaviour across age groups, sex, ethnicity,
