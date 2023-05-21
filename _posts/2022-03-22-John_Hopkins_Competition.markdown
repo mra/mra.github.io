@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Proposal on organ-on-chip"
+title:  "Computational modeling through organ-on-chip"
 date:   2022-03-22 17:30:15 +0530
 categories: OoC modelling
 ---
