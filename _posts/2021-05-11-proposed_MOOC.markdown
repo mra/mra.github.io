@@ -12,7 +12,7 @@ structure and function of adipocytes and macrophages
 as adipose-tissue-on-chip (VATOC and SATOC) and β-
 cells and PDECs on IOC, as in FIG.
 
-![Overview of MOOC](/images/overview_mooc.jpeg)
+![Overview of MOOC](/images/overview_mooc.png)
 
  Each OOC comprises of two-cell culture chambers and a thin layer of porous membrane and are interconnected through the
 wells in each chip, allowing fluid flow between the chips.
