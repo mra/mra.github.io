@@ -26,7 +26,7 @@ github_username:  mra
 markdown: kramdown
 remote_theme: architect
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
