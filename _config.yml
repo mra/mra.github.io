@@ -24,9 +24,9 @@ github_username:  mra
 
 # Build settings
 markdown: kramdown
-remote_theme: architect
+theme: minima
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
