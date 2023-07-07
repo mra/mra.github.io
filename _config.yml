@@ -24,7 +24,7 @@ github_username:  mra
 
 # Build settings
 markdown: kramdown
-remote-theme: cayman
+remote-theme: midnight
 plugins:
   - jekyll-feed
 
