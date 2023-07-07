@@ -61,6 +61,19 @@ In summary, L-BFGS is an optimization algorithm that uses limited memory to appr
 
 **Markov Chain Monte Carlo**
 
+<p style="text-align:justify">
+If we can't integrate something, approximate it by sampling.</p>
+
+MCMC is a sampler : it is based on likeliness and acceptance ratio. At the end of the process a posterior distribution or a chain of the parameters are obtained. We cannot say a particular theta, which is a parameter set is best fit.
+
+We will need a function which returns a number corresponding to how good a fit your model is to the data for a given set of parameters.
+
+Bayesian thinking is combining prior beliefs and current events. The posterior can be computed say the probability that there will be rice for lunch today.
+
+One MCMC method is the Metropolis Hastings algorithm. It can be used to compute distribution over the parameters given a set of observations and a prior belief. For this method, we need a proposal distribution to randomly walk in the distribution space. So at each point a new step is taken which is based on some rules of acceptance. If the current distribution is accepted it moves closer to the true destination or it will take a step back.
+
+
+
 The "emcee" package, which stands for "MCMC Hammer," is a popular Python package used for performing Markov Chain Monte Carlo (MCMC) sampling. In the context of parameter estimation with the "lmfit" package, "emcee" is often used to explore the posterior distribution of the parameters.
 
 Here's a high-level overview of how the combination of "emcee" and "lmfit" works:
@@ -77,6 +90,11 @@ Here's a high-level overview of how the combination of "emcee" and "lmfit" works
 
 
 By using "emcee" in combination with "lmfit," you can take advantage of the optimization capabilities of "lmfit" to find the best-fit parameter values and then utilize the MCMC sampling functionality of "emcee" to explore the full posterior distribution, providing a more comprehensive understanding of parameter uncertainties.
+
+Useful links:
+
+1.	[Markov Chain Monte Carlo (MCMC) methods](https://www.statlect.com/fundamentals-of-statistics/Markov-Chain-Monte-Carlo)
+
 
 **Simulated annealing**
 Simulated annealing is a metaheuristic optimization algorithm that is inspired by the annealing process in metallurgy. It is commonly used to find approximate solutions to optimization problems, particularly in cases where the search space is large and the objective function is noisy or contains multiple local optima.
