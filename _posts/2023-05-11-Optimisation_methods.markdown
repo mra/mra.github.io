@@ -140,8 +140,27 @@ The GA optimization process aims to reduce this error or minimize the objective 
 
 Overall, the error in genetic algorithm optimization refers to the measure of the discrepancy between a candidate solution's performance and the desired outcome, which the algorithm attempts to minimize through the evolutionary process.
 
+**Gaussian Process Regression**
 
+Gaussian Process Regression (GPR) is a probabilistic machine learning technique used for regression tasks. It is based on Gaussian processes, which are a collection of random variables, any finite number of which have a joint Gaussian distribution.
 
+In GPR, instead of assuming a specific functional form for the relationship between input variables (features) and output variables (target), it models the underlying function as a Gaussian process. A Gaussian process is fully defined by its mean function and covariance function (also known as kernel function).
+
+The mean function represents the expected value of the target variable given the input variables, while the covariance function captures the relationships and similarities between different input-output pairs. The choice of the covariance function determines the smoothness, stationarity, and other properties of the modeled function.
+
+During the training phase, GPR estimates the parameters of the mean and covariance functions from the provided training data. The model uses Bayesian inference to compute a posterior distribution over the possible functions that could explain the data. This posterior distribution is then used to make predictions for new, unseen data points.
+
+GPR provides several advantages, including:
+
+Flexibility: Since GPR does not assume a specific functional form, it can model complex relationships between variables without imposing strong assumptions.
+
+Uncertainty estimation: GPR provides a measure of uncertainty for each prediction. This is particularly useful in cases where reliable uncertainty estimates are important, such as in decision-making under uncertainty or when dealing with noisy or sparse data.
+
+Interpolation and extrapolation: GPR can effectively interpolate between observed data points and make predictions at unobserved locations, even in regions with limited or no data.
+
+Bayesian framework: GPR naturally incorporates prior knowledge and allows updating the model as new data becomes available.
+
+However, GPR can be computationally intensive for large datasets, as its time and space complexity scales cubically with the number of training examples. Various approximation techniques and sparse methods have been developed to address this limitation.
 
 
 
