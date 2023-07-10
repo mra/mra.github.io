@@ -3,6 +3,9 @@ layout: post
 title:  "Optimisation methods used in computational modelling"
 date:   2023-06-23 17:30:15 +0530
 categories: Optimisation methods
+img: moml.jpeg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Methods, Optimisation]
 ---
 **Optimisation methods used in computational modelling**
 
@@ -16,6 +19,8 @@ a 1-dimensional simplex is a line segment,
 a 2-dimensional simplex is a triangle,
 a 3-dimensional simplex is a tetrahedron, and
 a 4-dimensional simplex is a 5-cell.
+
+![Optimisation]({{site.baseurl}}/assets/img/moml.jpeg)
 
 Nelder-Mead is a popular optimization algorithm used for minimizing a given objective function. While it is commonly used for unconstrained optimization, it can also be adapted for the minimization of error using residuals in the context of nonlinear regression or curve fitting problems.
 
