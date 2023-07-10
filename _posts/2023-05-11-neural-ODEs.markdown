@@ -3,6 +3,9 @@ layout: post
 title:  "Neural Ordinary Differential Equation"
 date:   2022-08-22 17:30:15 +0530
 categories: NODEs
+img: deeplearning.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [DeepLearning, Optimisation]
 ---
 
 **Neural ordinary differential equation for parameter estimation**
@@ -26,6 +29,8 @@ Advantages:
 *	minimal parameter scaling
 *	potential to improve parameter estimates by solving NLP with global optimal solvers
 *	computationally flexible - bypass integration
+
+![Optimisation]({{site.baseurl}}/assets/img/deeplearning.jpg)
 
 **Details on Implementation**
 
