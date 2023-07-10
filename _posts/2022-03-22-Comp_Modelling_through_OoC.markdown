@@ -3,6 +3,9 @@ layout: post
 title:  "Computational modeling through organ-on-chip"
 date:   2022-03-22 17:30:15 +0530
 categories: OoC modelling
+img: setup_synvivo.jpeg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [OoC]
 ---
 
 **Computational modeling of crosstalk of adipocytes and β-cell in insulin-glucose
@@ -41,7 +44,7 @@ adipocytes from different individuals having different adipokine profiles. The s
 in insulin secretion in the presence of adipokines. Use of human adipocytes and β-cell lines from mice is planned. The
 experiments will be performed using a single OOC involving the co-culture of adipocytes and β-cells, as in Figure 1.
 
-![Figure 1: OOC experimental setup, the co-culture model and its cross-sectional view](/images/setup_synvivo.jpeg)
+![Figure 1: OOC experimental setup, the co-culture model and its cross-sectional view]({{site.baseurl}}/assets/img/setup_synvivo.jpeg)
 
  Model parameter determination
 through time-series observations can be done using the OOC. The model behaviour across age groups, sex, ethnicity,

@@ -3,6 +3,9 @@ layout: post
 title:  "Proposal on Multi Organ-on-Chip"
 date:   2022-08-22 17:30:15 +0530
 categories: NODEs
+img: overview_mooc.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [OoC, MoC]
 ---
 
 **Multi Organ-on-Chip**
@@ -12,7 +15,7 @@ structure and function of adipocytes and macrophages
 as adipose-tissue-on-chip (VATOC and SATOC) and β-
 cells and PDECs on IOC, as in FIG.
 
-![Overview of MOOC](/images/overview_mooc.png)
+![Overview of MOOC]({{site.baseurl}}/assets/img/overview_mooc.png)
 
  Each OOC comprises of two-cell culture chambers and a thin layer of porous membrane and are interconnected through the
 wells in each chip, allowing fluid flow between the chips.
