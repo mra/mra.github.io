@@ -4,6 +4,9 @@ title:  "Modelling of insulin
 response to glucose uptake"
 date:   2022-05-22 17:30:15 +0530
 categories: OoC modelling
+img: minmodel.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [IGpathway, ODEmodel]
 ---
 
 **Computational modelling of insulin response to glucose uptake including the role of obesity**
@@ -32,6 +35,8 @@ on mainly four factors:
 *	β-cell function
 
 *	GLP-1 level
+
+![IG model]({{site.baseurl}}/assets/img/minmodel.png)
 
 GLP-1 (Glucagon like peptide) is an incretin that stimulates β-cells of pancreas to produce
 insulin in a glucose dependent fashion. When glucose goes up insulin is secreted and when
