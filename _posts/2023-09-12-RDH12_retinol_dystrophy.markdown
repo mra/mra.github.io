@@ -3,12 +3,12 @@ layout: post
 title:  "Clinical and genetic characterization of RDH12-retinal dystrophy"
 date:   2023-09-12 17:30:15 +0530
 categories: OoC modelling
-img:  # Add image post (optional)
+img: exploration.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: []
 ---
 
-**Discussion with Prof Ramaswamy**
+**Exploration of new problems**
 
 1.	Problem 1
 
