@@ -3,7 +3,7 @@ layout: post
 title:  "Lumped parameter cardiovascular system"
 date:   2024-01-13 17:30:15 +0530
 categories: LPM
-img: overview_mooc.png # Add image post (optional)
+img: CVSnetwork.jpeg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [OoC, MoC]
 ---
@@ -15,7 +15,7 @@ tags: [OoC, MoC]
 
 
 
-![Overview of MOOC]({{site.baseurl}}/assets/img/overview_mooc.png)
+![Cardiovascular system network]({{site.baseurl}}/assets/img/overview_mooc.png)
 
 
 
