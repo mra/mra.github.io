@@ -15,7 +15,7 @@ tags: [OoC, MoC]
 
 
 
-![Cardiovascular system network]({{site.baseurl}}/assets/img/overview_mooc.png)
+![Cardiovascular system network]({{site.baseurl}}/assets/img/CVSnetwork.jpeg)
 
 
 
