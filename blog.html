@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog
+subtitle: Notes on computational modeling, PBPK, and learning along the way.
+permalink: /blog/
+---
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.subtitle or post.excerpt %}
+        <p class="text-muted">{{ post.subtitle | default: post.excerpt | strip_html | truncate: 180 }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

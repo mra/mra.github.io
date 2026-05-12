@@ -2,11 +2,10 @@
 <html lang="en">
 {% include head.html %}
 <body>
-
-  <div class="wrapper">
+  {% include header.html %}
+  <main class="site-main">
     {{ content }}
-  </div>
-  
-  {% include analytics.html %}
+  </main>
+  {% include footer.html %}
 </body>
 </html>

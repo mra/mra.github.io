@@ -1,37 +1,43 @@
-title: Hello, world! I'm Manoja Rajalakshmi Aravindakshan
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+title: Manoja Rajalakshmi Aravindakshan
+tagline: Computational Modeling · Digital Twins · PBPK / PK-PD
+description: >-
+  Postdoctoral Research Associate at Purdue University (Lilly–Purdue Research
+  Collaboration). Builds physiologically-grounded digital twins of human
+  health and disease, and develops AI agents that accelerate how these models
+  are constructed, calibrated, and refined.
 
-# Author Settings
-author: Manoja Rajalakshmi Aravindakshan # add your name
-author-img: manoja.jpg # add your photo
-about-author: I am a research scholar working on computational modelling of biophysical systems # add description
-# social-twitter: # add your Twitter handle
-# social-facebook: # add your Facebook handle
-social-github: mra # add your Github handle
-social-linkedin: manojalax # add your Linkedin handle
-social-email:  manojalax@gmail.com # add your Email address
+baseurl: ""
+url: "https://mra.github.io"
 
-# Disqus
-discus-identifier: manoja # add your discus identifier
+author:
+  name: Manoja Rajalakshmi Aravindakshan
+  role: Postdoctoral Research Associate
+  affiliation: Purdue University · Lilly–Purdue Research Collaboration
+  email: manojalax@gmail.com
+  work_email: maravind@purdue.edu
+  photo: /assets/img/manoja.jpg
+  github: mra
+  linkedin: manojalax
 
-# Tracker
-analytics: # Google Analytics
+nav:
+  - { title: About,        url: /about/ }
+  - { title: Research,     url: /research/ }
+  - { title: Publications, url: /publications/ }
+  - { title: Blog,         url: /blog/ }
+  - { title: CV,           url: /cv/ }
 
-# Build Settings
+permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+paginate: 6
+paginate_path: "/blog/page:num/"
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

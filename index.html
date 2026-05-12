@@ -1,19 +1,105 @@
 ---
-layout: main
+layout: default
+title: Home
 ---
-{% for post in paginator.posts %}
-<article class="post">
-  {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% else %}
-  {% endif %}
-  <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
-  </div>
-</article>
-{% endfor %}
 
-{% include pagination.html %}
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="role">{{ site.author.role }}</p>
+      <h1>{{ site.author.name }}</h1>
+      <p class="blurb">
+        I build <strong>physiologically-grounded digital twins of human health and disease</strong>—predictive models that translate complex physiology into clinical insight and de-risk drug development. In parallel, I develop <strong>AI agents that accelerate how these models are constructed, calibrated, and refined</strong>.
+      </p>
+      <div class="hero-meta">
+        <span>{{ site.author.affiliation }}</span>
+        <a href="mailto:{{ site.author.work_email }}">{{ site.author.work_email }}</a>
+        <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="{{ site.author.photo | relative_url }}" alt="{{ site.author.name }}">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-eyebrow">Research</p>
+    <h2>Selected projects</h2>
+    <p class="text-muted">Computational frameworks bridging physiology, pharmacokinetics, and AI-assisted model authoring.</p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-image"><img src="{{ '/assets/img/projects/p1-cardiovascular.png' | relative_url }}" alt="Whole-body cardiovascular model" onerror="this.style.display='none';this.parentElement.innerHTML='Whole-body cardiovascular';"></div>
+        <div class="card-body">
+          <h3>Whole-body cardiovascular digital twin</h3>
+          <p>Closed-loop, lumped-parameter (RCR) network for whole-body hemodynamics—pressure, flow, and disease-state response.</p>
+          <div class="tags"><span class="tag">Lumped-parameter</span><span class="tag">Hemodynamics</span><span class="tag">JAX</span></div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image"><img src="{{ '/assets/img/projects/p2-lymphatic.jpg' | relative_url }}" alt="Whole-body lymphatic transport" onerror="this.style.display='none';this.parentElement.innerHTML='Whole-body lymphatic';"></div>
+        <div class="card-body">
+          <h3>Whole-body lymphatic transport</h3>
+          <p>Comprehensive framework for interstitial and lymphatic drug transport—essential for subcutaneous biologics and immuno-oncology PK.</p>
+          <div class="tags"><span class="tag">Lymphatics</span><span class="tag">Subcutaneous PK</span><span class="tag">ODE</span></div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image"><img src="{{ '/assets/img/projects/p3-digilocs.jpg' | relative_url }}" alt="DigiLoCS liver-on-chip simulator" onerror="this.style.display='none';this.parentElement.innerHTML='DigiLoCS';"></div>
+        <div class="card-body">
+          <h3>DigiLoCS — digital liver-on-chip</h3>
+          <p>Predictive organ-on-chip simulator differentiating active vs. passive hepatic clearance for IVIVE. Published in <em>PLOS ONE</em>.</p>
+          <div class="tags"><span class="tag">PBPK</span><span class="tag">IVIVE</span><span class="tag">Liver-on-chip</span></div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image"><img src="{{ '/assets/img/projects/p4-csf.jpg' | relative_url }}" alt="Cranial-spinal CSF model" onerror="this.style.display='none';this.parentElement.innerHTML='Cranial-spinal CSF';"></div>
+        <div class="card-body">
+          <h3>Cranial-spinal CSF &amp; Circle of Willis</h3>
+          <p>Coupled lumped-parameter model capturing Monro–Kellie volume coupling, intracranial pulsatility, and cerebrovascular regulation—relevant to intrathecal CNS delivery.</p>
+          <div class="tags"><span class="tag">CNS</span><span class="tag">Intrathecal</span><span class="tag">CSF dynamics</span></div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image"><img src="{{ '/assets/img/projects/p5-insulin.jpg' | relative_url }}" alt="Insulin-glucose modeling" onerror="this.style.display='none';this.parentElement.innerHTML='Insulin-glucose';"></div>
+        <div class="card-body">
+          <h3>Insulin–glucose dynamics in T2D</h3>
+          <p>Extended oral minimal model with adipokine (leptin) and BMI coupling; identified three patho-clinical clusters in uncontrolled T2D patients.</p>
+          <div class="tags"><span class="tag">Metabolism</span><span class="tag">Parameter estimation</span><span class="tag">Clustering</span></div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image"><img src="{{ '/assets/img/projects/p6-dsl-agents.jpg' | relative_url }}" alt="DSL + AI agents" onerror="this.style.display='none';this.parentElement.innerHTML='PK DSL + AI agents';"></div>
+        <div class="card-body">
+          <h3>PBPK DSL + AI agents</h3>
+          <p>A domain-specific language for compartmental PK models that integrates a hierarchy of AI agents into the Design–Make–Test–Analyze (DMTA) cycle.</p>
+          <div class="tags"><span class="tag">DSL</span><span class="tag">AI agents</span><span class="tag">DMTA</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-eyebrow">Writing</p>
+    <h2>Recent posts</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+        <li>
+          <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="mt-2"><a class="btn secondary" href="{{ '/blog/' | relative_url }}">All posts</a></p>
+  </div>
+</section>
