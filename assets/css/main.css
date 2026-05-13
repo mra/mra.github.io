@@ -181,13 +181,12 @@ blockquote { border-left: 3px solid var(--brand); margin: 1.4em 0; padding: 0.4e
 /* ---------- Footer ---------- */
 .site-footer { border-top: 1px solid var(--line); padding: 1.6rem 0; margin-top: 2rem; background: var(--bg-soft); }
 .footer-inner { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: center; font-size: 0.88rem; color: var(--muted); }
-.footer-right a { color: var(--ink-soft); margin-left: 1.2rem; }
-.footer-right a:first-child { margin-left: 0; }
-.dot { margin: 0 0.5rem; color: var(--line); }
+.footer-right { display: flex; gap: 0.6rem; align-items: center; }
+.footer-right a { color: var(--ink-soft); }
+.dot { color: var(--line); }
 @media (max-width: 600px) {
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .footer-right { margin-top: 0.4rem; }
-  .footer-right a { margin-left: 0; margin-right: 1rem; }
 }
 
 /* ---------- CV ---------- */
