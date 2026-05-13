@@ -5,7 +5,7 @@ subtitle: Computational scientist working at the intersection of physiology, pha
 permalink: /about/
 ---
 
-I am a **Postdoctoral Research Associate** in the [Vlachos Research Group · Predictive Science Lab](https://engineering.purdue.edu/) at Purdue University, working on the **Lilly–Purdue Research Collaboration**.
+I am a **Postdoctoral Research Associate** in the [Vlachos Research Group](https://vlachosresearch.org/pub-author/manoja-rajalakshmi-aravindakshan/) · [Predictive Science Lab](https://predictivesciencelab.org/people/manoja-rajalakshmi-aravindakshan/) at Purdue University, working on the **Lilly–Purdue Research Collaboration**.
 
 My research builds **physiologically-grounded digital twins of human health and disease**—predictive models that translate complex physiology into clinical insight and de-risk drug development. In parallel, I develop **AI agents that accelerate how these models are constructed, calibrated, and refined**.
 
